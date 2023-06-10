@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #f0a83e;
+  --color-secondary: #3c2313;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
