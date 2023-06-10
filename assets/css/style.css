@@ -8,3 +8,16 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+
+  height: 10vh;
+  width: 100%;
+  background-color: var(--color-primary);
+}
