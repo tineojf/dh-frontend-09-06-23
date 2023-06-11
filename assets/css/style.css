@@ -50,7 +50,7 @@ section.banner > h2 {
 }
 section.banner > p {
   font-size: 1rem;
-  margin: 15px 0
+  margin: 15px 0;
 }
 section.banner > button {
   padding: 25px;
@@ -60,4 +60,56 @@ section.banner > button {
   text-transform: uppercase;
   background-color: var(--color-primary);
   border: none;
+}
+
+main {
+  margin: 20px 0;
+}
+
+main > div:first-child {
+  text-align: center;
+}
+main > div:first-child > img {
+  width: 67px;
+}
+main > div:first-child > h2 {
+  margin: 10px 30px;
+  font-size: 2.5rem;
+}
+main > div:first-child > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+
+  list-style-type: none;
+  margin: 30px;
+  font-size: 0.8125rem;
+  color: #666;
+}
+
+main > div:last-child {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+}
+main > div:last-child > article {
+  margin: 20px 0;
+
+  background-color: #fafaf6;
+  text-align: center;
+  font-size: 0.8125rem;
+}
+main > div:last-child > article > p:nth-child(2){
+  color: var(--color-secondary);
+}
+main > div:last-child > article > p:nth-child(3){
+  color: var(--color-primary);
+  font-weight: bold;
+  margin-bottom: 10px;
 }
