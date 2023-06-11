@@ -105,11 +105,102 @@ main > div:last-child > article {
   text-align: center;
   font-size: 0.8125rem;
 }
-main > div:last-child > article > p:nth-child(2){
+main > div:last-child > article > p:nth-child(2) {
   color: var(--color-secondary);
 }
-main > div:last-child > article > p:nth-child(3){
+main > div:last-child > article > p:nth-child(3) {
   color: var(--color-primary);
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+section.information {
+  margin: 0;
+}
+section.information > h2 {
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+section.information > form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+
+  margin: 10px 0;
+  padding: 0 20px;
+}
+section.information > form > input {
+  width: 80%;
+  height: 45px;
+  margin: 5px 0;
+  padding: 0 20px;
+
+  border: none;
+  border-radius: 15px;
+  background-color: var(--color-secondary);
+  font-size: 0.8rem;
+}
+section.information > form > input::placeholder {
+  color: #ab9c9c;
+}
+section.information > form > div {
+  margin-top: 30px;
+}
+section.information > form > div > button {
+  padding: 15px 50px;
+
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+}
+section.information > form > div > button:first-child {
+  background-color: #8a8787;
+}
+section.information > form > div > button:last-child {
+  background-color: var(--color-primary);
+}
+
+section.information > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+
+  background-color: var(--color-primary);
+  margin-top: 30px;
+  padding: 10px;
+  color: #fff;
+}
+section.information > div > p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+section.information > div > form > input {
+  width: 60vw;
+  height: 40px;
+  margin: 5px 0;
+  padding: 0 20px;
+
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 0.8rem;
+}
+section.information > div > form > button {
+  margin-left: 5px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 15px;
+  background-color: var(--color-secondary);
+  color: #fff;
+  font-weight: bold;
 }
