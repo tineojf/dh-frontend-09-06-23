@@ -253,7 +253,6 @@ footer > p {
   }
 
   section.banner {
-    background-size: contain;
     height: 50vh;
     padding: 45px;
   }
