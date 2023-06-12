@@ -244,3 +244,58 @@ footer > p {
   font-size: 0.8125rem;
   font-weight: 400;
 }
+
+@media (min-width: 1024px) {
+  header {
+    justify-content: space-between;
+
+    padding: 0 8vw;
+  }
+
+  section.banner {
+    background-size: contain;
+    height: 50vh;
+    padding: 45px;
+  }
+  section.banner > h2 {
+    padding: 15px 30px;
+  }
+  section.banner > button {
+    padding: 22px;
+  }
+
+  main > div:last-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  section.information > form > input {
+    width: 40%;
+  }
+  section.information > div {
+    flex-wrap: no-wrap;
+    align-items: center;
+  }
+  section.information > div > form > input {
+    width: 25vw;
+    margin: 0;
+    margin-left: 25vw;
+  }
+
+  footer > div.about-us > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  footer > div.about-us > div > div {
+    width: 20%;
+    margin-left: 20px;
+  }
+}
